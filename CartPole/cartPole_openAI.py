@@ -22,6 +22,7 @@ def OurModel(input_shape, action_space):
     X = Dense(256, input_shape=input_shape, activation="relu", kernel_initializer='he_uniform')(X_input)
     X = Dense(128, activation="relu", kernel_initializer='he_uniform')(X)
     X = Dense(64, activation="relu", kernel_initializer='he_uniform')(X)
+    X = Dense(32, activation="relu", kernel_initializer="he_uniform") (X)
     X = Dense(action_space, activation="linear", kernel_initializer='he_uniform')(X)
 
     model = Model(inputs = X_input, outputs = X, name='CartPole DQN model')
