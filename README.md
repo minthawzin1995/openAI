@@ -2,7 +2,7 @@
 
 - CartPole
 
-CartPole is coded by using reinforcement Learning and Q Learning through neural networks. Code is based on pythonLessons found on youtube.
+CartPole is coded by using reinforcement Learning and Q Learning through neural networks. Code is based on pythonLessons.
 Small changes are made in this code:
 
 (1) MaxEnvTime to prolong the efficiency of the neural network. 
